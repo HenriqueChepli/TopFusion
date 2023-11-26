@@ -306,6 +306,41 @@ a{
   scale: 1.05;
 }
 
+/* Section "Garantia" */
+
+#garantia #mainGarantia{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 50vh;
+	background-color: #D9D9D9;
+}
+
+.boxGarantia:first-child {
+	border-right: 1.85px solid #0d0d0d;
+}
+
+.titlesGarantia h2{
+	font-size: 3em;
+	max-width: 700px;
+}
+
+.titlesGarantia h4 {
+	font-size: .75em;
+	margin: 20px 20px 20px 0;
+}
+
+#buttonGarantia{
+	background-color: #0D0D0D;
+	border-radius: 55px;
+	padding: 10px;
+}
+
+#buttonGarantia a{
+	text-decoration: none;
+	color: var(--bright-color);
+}
+
 /* "Rodapé" Sessão */
 
   #footer {
