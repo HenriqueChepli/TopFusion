@@ -56,13 +56,23 @@ a{
 display: flex;
 justify-content: end;
 width: 100%;
+gap: 15px;
 background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 }
 
-.imgHeader{
-  padding: 2px;
-  margin: 1px 5px 0 5px;
-  scale: 1.2;
+.icon-social-nav{
+	width: 32.5px;
+	height: 32.5px;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 1.75px;
+	transition: .55s;
+	margin: 5px 0;
+}
+
+.icon-social-nav:hover{
+	transition: all 0.5s ease-in-out;
+	background-color: #006516;
 }
 
 #header{
@@ -87,7 +97,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 	padding-top: 10px;
 	width: 300px;
 	text-decoration: none;
-	color: var(--dark-color)
+	color: var(--dark-color);
   }
 
 #img-logo{
@@ -263,7 +273,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   width: 100%;
   height: calc(100vh - 220px);
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   background-image: url(http://www.agenciatempobrasil.com.br/site/uploads/ckeditor/2020-04-23_cf3cf595304289.5e9493f0ebdf0.jpg);
   background-repeat: no-repeat;
@@ -344,6 +354,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 	align-items: center;
 	min-height: 50vh;
 	background-color: #D9D9D9;
+	flex-wrap: wrap;
 }
 
 .boxGarantia:first-child {
@@ -365,15 +376,17 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #0D0D0D;
+	background-image: linear-gradient(to left, #2442E2, #006516);
 	border-radius: 55px;
-	padding: 10px;
-	gap: 12.5px;
+	padding: 10px 20px;
+	gap: 15px;
+	transition: .55s;
 }
 
 #buttonGarantia a{
 	text-decoration: none;
 	color: var(--bright-color);
+	letter-spacing: 2.5px;
 }
 
 /* "Rodapé" Sessão */
@@ -531,11 +544,62 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 		font-size: 1.7vh;
 	  }
 
+	  .titlesGarantia h2{
+		font-size: 3em;
+		max-width: 700px;
+		margin: 0 0 0 10px;
+	}
+	
+	.titlesGarantia h4 {
+		font-size: .75em;
+		margin: 20px 0 20px 10px;
+	}
+
+
 }
 
 @media (max-width: 700px) {
   #infoID {
 		width: 5vh;
+	  }
+
+	  .titlesGarantia{
+		text-align: justify;
+	}
+
+	#garantia{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.boxGarantia:first-child {
+		border-right: transparent;
+	}
+
+	.titlesGarantia h2{
+		font-size: 3em;
+		max-width: 700px;
+		margin: 0 35px 0 10px;
+	}
+	
+	.titlesGarantia h4 {
+		font-size: .75em;
+		margin: 20px 15px 20px 10px;
+	}
+
+	#titleNossasLinhas h2{
+		width: 250px;
+	}
+
+	.box-nossasLinhas{
+		margin: 10vh 135px 100px;
+		transition: .55s;
+		scale: .9;
+	  }
+
+	  .box-nossasLinhas:hover{
+		transition: all .35s ease-in-out;
+		scale: 1;
 	  }
 }
 
@@ -544,6 +608,14 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   width: 3vh;
   }
 
+  .titlesGarantia h2{
+	font-size: 2em;
+	max-width: 700px;
+	margin: 0 35px 0 10px;
+}
+#titleNossasLinhas h2{
+	width: 300px;
+}
 }
 
 @media (max-width:380px) {
@@ -587,4 +659,19 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 		max-width: 100%;
 		margin: 0;
 	}
+
+	#titleNossasLinhas h2{
+		font-size: 17px;
+	}
+
+	.box-nossasLinhas{
+		margin: 10vh 135px 100px;
+		transition: .55s;
+		scale: .75;
+	  }
+
+	  .box-nossasLinhas:hover{
+		transition: all .35s ease-in-out;
+		scale: .9;
+	  }
 }
