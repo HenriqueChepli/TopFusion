@@ -7,33 +7,39 @@
     <link rel="stylesheet" href="css/form.css">
 </head>
 
-<body>
-
-    <main class="container">
-        <h2>Cadastro</h2>
-        <form action="">
-
-            <div class="input-field">
-                <input type="text" name="username" id="username" placeholder="Usuário">
-                <div class="underline"></div>
-            </div>
-            <div class="input-field">
-                <input type="password" name="password" id="password" placeholder="Senha">
-                <div class="underline"></div>
-            </div>
-            <!-- Adicionando campos para o Gmail e Nome -->
-            <div class="input-field">
-                <input type="email" name="gmail" id="gmail" placeholder="E-mail">
-                <div class="underline"></div>
-            </div>
-            <div class="input-field">
-                <input type="text" name="name" id="name" placeholder="Nome">
-                <div class="underline"></div>
-            </div>
-
-            <input type="submit" value="Continue">
-        </form>
-    </main>
-
+<body id="body">
+    <header id="header-cadastro">
+        <nav id="nav">
+            <a class="link" href="index.html"><img src="img/undo-regular-24.png" alt="botao voltar"> </a>
+           <a class="link l2" href="index.html"><h4>Voltar</h4></a>
+        </nav>
+    </header>
+    <section id="formulario">
+        <div class="container-cadastro">
+            <h2>Cadastro</h2>
+            <form action="">
+      
+                <div class="input-field">
+                    <input type="text" name="username" id="username" placeholder="Usuário">
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                    <div class="underline"></div>
+                </div>
+                <!-- Adicionando campos para o Gmail e Nome -->
+                <div class="input-field">
+                    <input type="email" name="gmail" id="gmail" placeholder="E-mail">
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <div class="underline"></div>
+                </div>
+      
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+</section>
 </body>
 </html>
