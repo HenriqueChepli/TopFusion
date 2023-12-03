@@ -54,6 +54,8 @@ a{
 
 #headerContatos{
 display: flex;
+text-align: center;
+align-items: center;
 justify-content: end;
 width: 100%;
 gap: 15px;
@@ -73,6 +75,19 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 .icon-social-nav:hover{
 	transition: all 0.5s ease-in-out;
 	background-color: #006516;
+}
+
+#btn-forms{
+	text-decoration: none;
+	color: #fff;
+	background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
+	transition: .5s;
+	padding: 2px;
+}
+
+#btn-forms:hover{
+	transition: all .55s ease-in-out;
+	color: #0d0d0d;
 }
 
 #header{
@@ -555,7 +570,12 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 		margin: 20px 0 20px 10px;
 	}
 
-
+	#formulario.active .container-forms {
+		display: block;
+		min-width: 320px;
+		height: 50vh;
+		visibility: visible;
+		}
 }
 
 @media (max-width: 700px) {
@@ -602,6 +622,12 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 		transition: all .35s ease-in-out;
 		scale: 1;
 	  }
+	  #formulario.active .container-forms {
+		display: block;
+		min-width: 320px;
+		height: 52vh;
+		visibility: visible;
+		}
 }
 
 @media (max-width:450px) {
@@ -675,4 +701,10 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 		transition: all .35s ease-in-out;
 		scale: .9;
 	  }
+	  #formulario.active .container-forms {
+		display: block;
+		min-width: 320px;
+		height: 55vh;
+		visibility: visible;
+		}
 }
