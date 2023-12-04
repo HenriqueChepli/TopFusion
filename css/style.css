@@ -289,6 +289,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   height: calc(100vh - 220px);
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   align-items: center;
   background-image: url(file:///home/henrique.souza/Downloads/2020-04-23_cf3cf595304289-PhotoRoom.jpg);
   background-repeat: no-repeat;
@@ -336,6 +337,11 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 
 /* Section "Nossas Linhas" */
 
+#nossasLinhas{
+	background-image: linear-gradient(to left, #d1d1d1, #fff, #d1d1d1, #d2d2d2);
+	padding: 20px;
+}
+
 #mainNossasLinhas{
   display: flex;
   justify-content: space-around;
@@ -355,7 +361,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 }
 
 #titleNossasLinhas{
-	margin: 100px 10vw 0px;
+	margin: 0px 10vw 0px;
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -421,7 +427,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background-color: var(--cinzaescuro-color);
+	background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
     padding: 0 50px 0 50px;
     width: 100%;
     flex-wrap: wrap;
