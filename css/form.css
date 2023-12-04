@@ -74,13 +74,13 @@ div.container-forms {
 	height: 0px;
 }
 
-div h2 {
+div #title-form {
     font-weight: 600;
     margin-bottom: 2rem;
     position: relative;
 }
 
-div h2::before {
+div #title-form::before {
     content: '';
     position: absolute;
     height: 4px;
