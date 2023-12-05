@@ -291,7 +291,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   justify-content: center;
   background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
   align-items: center;
-  background-image: url(file:///home/henrique.souza/Downloads/2020-04-23_cf3cf595304289-PhotoRoom.jpg);
+  background-image: url(https://cdn-sharing.adobecc.com/composite/component/id/urn:aaid:sc:VA6C2:be7d1b08-d2e5-40d6-a99b-85e4797e54cb?component_id=5e70a089-efdc-4a96-aff9-c3b4cae71ba5&revision=786e0d48-b1c6-4b48-b624-8908ae3d1d2c&api_key=projectx_webapp&access_token=1701826652_urn%3Aaaid%3Asc%3AVA6C2%3Abe7d1b08-d2e5-40d6-a99b-85e4797e54cb%3Bpublic_810996603de7c8f0b228798e28b109edbdf04041);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -344,7 +344,7 @@ background-image: linear-gradient(to left, #2442E2, #4B5BAE, #188860, #006516);
 
 #mainNossasLinhas{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
